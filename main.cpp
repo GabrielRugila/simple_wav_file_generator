@@ -29,7 +29,7 @@ void writeToFile(ofstream &file, int value, int size) {
 };
 
 int main() {
-    int duration = 2;
+    int duration = 4; // real duration will be *2 this value
     int channels = 1;
     ofstream audioFile;
     
